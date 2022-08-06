@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+<style>
+   ion-icon{ 
+font-size: 30px; 
+width: 35px;
+height: 35px;
+background: black;
+color: white;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border-radius: 100px;
+border: none;
+text-decoration: none;
+margin-left:15px;
+opacity:0.6;
+}
+.lo {
+ color: #FFD700;
+ outline:#000000;
+ 
+ display: inline-flex;
+ font-size: 30px; 
+width: 35px;
+height: 35px;
+cursor:pointer;
+position:fixed;
+  }
+#navbar{
+margin-left:325px;
+margin-top:0px;
+width:20px;
+height:30px;
+}
+body {
+  
+  background-color: #92a8d1;//#b0c4de
+  position:fixed;
+  
+  overflow:auto;
+  width:430px;
+  height:10000px;
+  
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+  
+.mama{
+background: white;
+    width: 160px;
+  height:160px;
+  margin-top:10px;
+  margin-left:20px;
+    border-radius: 50px;
+    position: fixed;
+     border: 1px solid goldenrod;   
+  overflow:scroll;
+  box-shadow: 2px 2px lightgrey;
+}
+a[href] { 
+  margin-top:120px;
+    text-align:center;
+    width:auto;
+   
+ margin-left:0px;
+
+    font-size:17px;
+    border-radius:5px;
+    color:grey;
+     font-family: 'Roboto', sans-serif;
+ text-decoration:none;
+ display:flex; 
+ 
+  justify-content: center; 
+}
+.a {
+    display: block;
+    width: 100%;
+    height: 100%;
+align-items:center;
+justify-content:center;
+display:flex;
+margin-right: auto;
+text-align:center;
+
+}
+.bhai{
+ background: white;
+    width: 160px;
+  height:160px;
+  margin-top:10px;
+  margin-left:200px;
+    border-radius: 50px;
+    position: fixed;   
+    border: 1px solid goldenrod;
+    box-shadow: 2px 2px lightgrey;
+  overflow:scroll;
+}
+.dai{
+ background: white;
+    width: 160px;
+  height:160px;
+  margin-top:200px;
+  margin-left:20px;
+    border-radius: 50px;
+    position: fixed;   
+   border: 1px solid goldenrod; 
+   box-shadow: 2px 2px lightgrey;
+  overflow:auto;
+}
+.didi{
+ background: white;
+    width: 160px;
+  height:160px;
+  margin-top:200px;
+  margin-left:200px; 
+    border-radius: 50px;
+    position: fixed;     
+   border: 1px solid goldenrod;
+    box-shadow: 2px 2px lightgrey; 
+  overflow:auto;
+}
+.vinaju{
+background: white;
+    width: 160px;
+  height:160px;
+  margin-top:390px;
+  margin-left:20px;
+    border-radius: 50px;
+    position: fixed; 
+    border: 1px solid goldenrod;
+    box-shadow: 2px 2px lightgrey;
+  overflow:auto;
+}
+.mommy{
+ background: white;
+    width: 160px;
+  height:160px;
+  margin-top:390px;
+  margin-left:200px;
+    border-radius: 50px;
+    position: fixed;      
+    border: 1px solid goldenrod;
+    box-shadow: 2px 2px lightgrey;
+}
+.baba{
+background: white;
+    width: 160px;
+  height:160px;
+  margin-top:580px;
+  margin-left:20px;
+    border-radius: 50px;
+    position: fixed;  
+   border: 1px solid goldenrod; 
+   box-shadow: 2px 2px lightgrey;
+  overflow:auto;
+}
+.aama{
+ background:white;
+    width: 160px;
+  height:160px;
+  margin-top:580px;
+  margin-left:200px;
+    border-radius: 50px;
+    position: fixed;      
+    border: 1px solid goldenrod;
+    box-shadow: 2px 2px lightgrey;
+  overflow:auto;
+}
+.kal{
+position:fixed;
+  width:130px;
+  height:130px;
+  justify-content:center;
+  left:43px;
+  top:50px;
+}
+.sal{
+position:fixed;
+  width:100px;
+  height:100px;
+  justify-content:center;
+  left:235px;
+  top:65px;
+}
+.bal{
+position:fixed;
+  width:130px;
+  height:130px;
+  justify-content:center;
+  left:45px;
+  top:240px;
+}
+.hal{
+position:fixed;
+  width:100px;
+  height:100px;
+  justify-content:center;
+  left:235px;
+  top:255px;
+}
+.lal{
+position:fixed;
+  width:100px;
+  height:100px;
+  justify-content:center;
+  left:65px;
+  top:450px;
+}
+.tal{
+position:fixed;
+  width:100px;
+  height:100px;
+  justify-content:center;
+  left:235px;
+  top:445px;
+}
+.cal{
+position:fixed;
+  width:100px;
+  height:100px;
+  justify-content:center;
+  left:65px;
+  top:635px;
+}
+.jal{
+position:fixed;
+  width:100px;
+  height:100px;
+  justify-content:center;
+  left:235px;
+  top:635px;
+  text-align:center;
+ 
+}
+
+</style>
+</head>
+<body>
+   <div id="navbar">
+     <span class="button_icon">
+   <ion-icon class="lo" ios="moon-outline" md="moon-sharp" onclick="myFunction()"></ion-icon>
+  </span>
+  </div>
+  </div>
+<div class="mama">
+    <img src="/storage/emulated/0/Download/world-map.png" alt="World Geography" class="kal" >
+      <h1><a href="/storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Nepal Quiz game/Nepal Quiz Game/g.html">World Geography</a></h>
+
+      </div>
+      </a>
+ <div class="bhai">
+      <img src="/storage/emulated/0/Download/icons8-history-64.png" alt="World History" class="sal" >
+    <h1><a href="#">World History</a></h1>
+      </div>
+      
+    <div class="dai">
+         <img src="/storage/emulated/0/Download/5473697.png" alt="Nepal History" class="bal" > 
+     <h1><a href="#">Nepal Geography</a></h>
+      </div>  
+    <div class="didi">
+         <img src="/storage/emulated/0/Download/icons8-history-book-50.png" alt="Nepal History" class="hal" >  
+      <h1><a href="#">Nepal History</a></h1>
+      </div>     
+      <div class="vinaju">
+      <img src="/storage/emulated/0/Download/2936719.png" alt="Nepal History" class="lal" >
+    <h1><a href="#">Nepal Education</a></h1>
+      </div>      
+       <div class="mommy">
+        <img src="/storage/emulated/0/Download/3288921.png" alt="Nepal History" class="tal" >    
+     <h1><a href="#">Science</a></h1>
+      </div>  
+         <div class="baba">
+        <img src="/storage/emulated/0/Download/3311579.png" alt="Nepal History" class="cal" >   
+    <h1><a href="#">Sports</a></h1>
+      </div>     
+         <div class="aama">
+           <img src="/storage/emulated/0/Download/2335220.png" alt="Nepal History" class="jal" >    
+   <h1><a href="#" id="link">Fun </a></h1>
+      </div>     
+        <script>
+            function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+   
+        </script> 
+       
+ 
+ 
+
+</body>
+</html>
+
+
+
+
+
+
+
